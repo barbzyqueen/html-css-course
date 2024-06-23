@@ -1,4 +1,4 @@
-# This Read Me Contains details of the steps I took to complete the assignment"
+# This Read Me Contains details of the steps I took to complete the Assignment
 
 1. Cloning a Repository:
     - I chose the repository for a html and css project at https://github.com/jonasschmedtmann/html-css-course
@@ -15,9 +15,9 @@
 
 4. Making Changes and Committing:
 
-    - In the feature-update branch, I created a index.html file
+    - In the feature-update branch, I created an index.html file
     - Then I added the changes to the staging area using the command: git add .
-    - I commited the changes using the command git add -m "Added Changes to index.html file in feature-update branch"
+    - I commited the changes using the command: git add -m "Added Changes to index.html file in feature-update branch"
 
 5. Merging Changes:
     - I switched back to the master branch using the command: git checkout -
@@ -32,12 +32,13 @@ In my forked repository on my local machine I also created an index.html file
     - I commited the changes using the command git add -m "Added  index.html file in master branch"
     - In the git bash terminal, I created a new branch and switched to it by using the command: git checkout -b feature-update
     - In my the feature-update branch I modified a line of code. I changed the contents of the h2 tag in line 9
-    - I added and committed the changes 
-    - I switched back to the master branch using the command: git checkout -
-    - I modified the code on line 9 again in the index.html file of the master branch
+    - I added the changes and committed them 
+    - Then I switched back to the master branch using the command: git checkout -
 
 7. Resolving Conflicts:
-    - I added and committed the changes using the command git: merge feature-update
+    - I modified the code on line 9 again in the index.html file of the master branch
+    - I added and committed the changes 
+    - Then I merged the feature-update branch into the master branch using the command: git merge feature-update
     - This created a conflict and gave me the following error:
         Auto-merging index.html
         CONFLICT (content): Merge conflict in index.html
@@ -59,29 +60,10 @@ In my forked repository on my local machine I also created an index.html file
 
 
 9.  Accessing the Published Page:
-    - Afterwards I was able to access my html file live with the following  url: https://barbzyqueen.github.io/html-css-course/
-
-    Navigate to Your Repository: Go to the GitHub website and navigate to the repository you want to set up GitHub Pages for.
-Open the Settings Tab: Click on the Settings tab near the top of the repository page.
-Go to the Pages Section:
-In the left sidebar under "Code and automation," you will find a section called Pages.
-Click on Pages.
-Configure GitHub Pages:
-In the "Build and deployment" section, you will see the "Source" dropdown.
-Choose the branch you want to use for GitHub Pages from the dropdown menu (commonly main or master, or a specific branch like gh-pages).
-
-If necessary, select a folder from the branch, such as /root or /docs.
-Save Your Settings:
-After making your selections, click the Save button.
-Wait for Deployment:
-GitHub will automatically start building and deploying your site.
-This process can take a few minutes.
-Access Your Site:
-Once the deployment is complete, you’ll see a confirmation message with the URL where your site is published (e.g., https://your-username.github.io/your-repository).
-
+    - Afterwards I was able to access my html file live with the following url: https://barbzyqueen.github.io/html-css-course/
     
 10. Exploring Open Source Projects:
 
     - I searched and found the first-contributions open-source project: https://github.com/firstcontributions/first-contributions
-
     - I explored the documentation, issues, and contribution guidelines.
+    - I followed their instructions and made my first contribution.
